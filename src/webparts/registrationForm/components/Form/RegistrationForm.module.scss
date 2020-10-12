@@ -1,0 +1,70 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.registrationForm {
+  
+  @import 'bootstrap';
+
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  .customROW {
+    background-color: rgba(196, 15, 15, 0.959);
+  }
+
+  .lbcustom {
+      color: white;
+      padding-top: 50px;
+      font-size: medium;
+      font-weight: bold;
+  }
+
+  .form-group {
+      padding-top: 10px;
+  }
+
+  .btn {
+      width: 30%;
+  }
+
+  .btn:focus,
+  .btn:active {
+      outline: none !important;
+      box-shadow: none;
+  }
+
+  .btnsubmit {
+      background-color: rgba(196, 15, 15, 0.959) !important;
+      border-color: rgba(196, 15, 15, 0.959) !important;
+  }
+
+  .btnsubmit:hover {
+      background-color: rgba(201, 68, 68, 1);
+      border-color: rgba(196, 15, 15, 1);
+  }
+
+  .btnsubmit:active {
+      background-color: rgba(201, 68, 68, 1);
+      border-color: rgba(196, 15, 15, 1);
+  }
+
+  .contbtn {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  .btndrp {
+      background-color: white;
+      color: black
+  }
+
+  .btndrp:hover {
+      background-color: rgba(201, 68, 68, 1);
+      border-color: rgba(196, 15, 15, 1);
+  }
+
+  .custom-error{
+    color: red !important;
+  }
+}
